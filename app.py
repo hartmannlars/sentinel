@@ -15,7 +15,6 @@ def predict_image(image):
     image = image.resize((64, 64))
     image = np.array(image)
 
-    print("Min and max values:", image.min(), image.max())  # Sollte zwischen 0 und 1 sein
     prediction = model.predict(np.expand_dims(image, axis=0))
     confidences = {labels[i]: float(prediction[0][i]) for i in range(len(labels))}
     return confidences
@@ -30,7 +29,6 @@ iface = gr.Interface(
     description="Upload a satellite image and the classifier will predict the type of land cover or feature.",
     examples=["images/forest.jpg", "images/highway.jpg", "images/industrial.jpg", "images/residential.jpg", "images/river.jpg"]
 )
-
 
 
 iface.launch()
