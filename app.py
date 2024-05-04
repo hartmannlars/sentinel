@@ -26,7 +26,8 @@ iface = gr.Interface(
     outputs=gr.Label(num_top_classes=10),
     title="Sentinel Image Classifier",
     description="Upload a satellite image and the classifier will predict the type of land cover or feature.",
-    examples=["images/forest.jpg", "images/highway.jpg", "images/industrial.jpg", "images/residential.jpg", "images/river.jpg"]
+    examples = ["images/annualcrop.jpg", "images/forest.jpg", "images/herbaceousvegetation.jpg", "images/highway.jpg", "images/industrial.jpg", "images/pasture.jpg", "images/permanentcrop.jpg", "images/residential.jpg", "images/river.jpg", "images/sealake.jpg"]
+
 )
 
 iface.launch()
