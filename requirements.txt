@@ -1,3 +1,5 @@
 tensorflow
 gradio==3.50
 Pillow
+numpy
+matplotlib
