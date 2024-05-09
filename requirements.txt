@@ -3,3 +3,5 @@ gradio==3.50
 Pillow
 numpy
 matplotlib
+pandas
+scikit-learn
