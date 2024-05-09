@@ -32,7 +32,7 @@ python app.py
 
 Then, navigate to http://localhost:7860 in your web browser to interact with the model.
 
-## Usage
+## Dataset
 
 The project uses the EuroSAT dataset, which comprises 30,988 labeled satellite images categorized into 10 classes.
 
