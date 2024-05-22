@@ -1,3 +1,14 @@
+---
+title: Pokemon
+emoji: 🦀
+colorFrom: green
+colorTo: blue
+sdk: gradio
+sdk_version: 4.27.0
+app_file: app.py
+pinned: false
+---
+
 # Satellite Image Classification Project
 
 This repository contains all resources and code for the Satellite Image Classification project conducted as a study project at the ZHAW School of Management and Law. The project uses machine learning to classify satellite images from the EuroSAT dataset, which are derived from Sentinel satellites, into ten different land cover types.
