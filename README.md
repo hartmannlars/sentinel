@@ -1,7 +1,7 @@
 ---
-title: Pokemon
-emoji: 🦀
-colorFrom: green
+title: Sentinel
+emoji: 🛰️
+colorFrom: blue
 colorTo: blue
 sdk: gradio
 sdk_version: 4.27.0
